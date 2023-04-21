@@ -1,0 +1,558 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato";
+}
+
+li {
+  list-style: none;
+}
+
+.home-page {
+  height: 3837px;
+  /* border: 5px solid darkblue; */
+}
+
+.navbar {
+  height: 700px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background-size: cover;
+  opacity: 0.9;
+
+  background-image: url("../assets/Coffe\ Header.png");
+}
+
+.logo-white {
+  position: absolute;
+  width: 335px;
+  height: 67px;
+  left: 138px;
+  top: 39px;
+}
+
+.header-list li {
+  float: right;
+  margin-left: 49px;
+}
+
+.header-list {
+  color: white;
+  padding-top: 54px;
+  /* font-family: "Lato"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  /* identical to box height */
+  text-align: center;
+}
+
+.selected-contact {
+  position: absolute;
+  width: 106px;
+  height: 36px;
+  left: 1196px;
+  top: 54px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.selected-store {
+  position: absolute;
+  width: 72px;
+  height: 36px;
+  left: 1075px;
+  top: 54px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.selected-products {
+  position: absolute;
+  width: 119px;
+  height: 36px;
+  left: 906px;
+  top: 54px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  width: 499px;
+  height: 221px;
+  left: 471px;
+  top: 239px;
+}
+
+.text-header h1 {
+  position: absolute;
+  width: 487px;
+  height: 168px;
+  left: 477px;
+  top: 239px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 84px;
+}
+
+.text-header p {
+  /* Best qualities from our local soil */
+
+  position: absolute;
+  width: 499px;
+  height: 43px;
+  left: 471px;
+  top: 417px;
+
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.who-are-we-left {
+  position: absolute;
+  width: 335px;
+  height: 460px;
+  left: 257px;
+  top: 800px;
+  border-radius: 20px;
+}
+
+.who-right h3 {
+  /* margin-left: 730px;
+  margin-top: 100px; */
+
+  position: absolute;
+  width: 282px;
+  height: 58px;
+  left: 730px;
+  top: 800px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  color: #0f8b8d;
+}
+
+.border {
+  position: absolute;
+  width: 278px;
+  height: 5px;
+  left: 730px;
+  top: 878px;
+
+  background: #ec9a29;
+}
+
+.who-right p {
+  position: absolute;
+  width: 452px;
+  height: 116px;
+  left: 730px;
+  top: 903px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.heading h3 {
+  position: absolute;
+  width: 400px;
+  height: 58px;
+  left: 257px;
+  top: 1360px;
+
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+
+  /* identical to box height */
+
+  color: #0f8b8d;
+}
+
+.heading .border {
+  position: absolute;
+  width: 399px;
+  height: 5px;
+  left: 257px;
+  top: 1438px;
+
+  background: #ec9a29;
+}
+
+.container-product p {
+  position: absolute;
+  width: 425px;
+  height: 58px;
+  left: 257px;
+  top: 1463px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.message1 p {
+  position: absolute;
+  width: 425px;
+  height: 58px;
+  left: 257px;
+  top: 1463px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.btn {
+  position: absolute;
+  width: 335px;
+  left: 257px;
+  top: 1566px;
+  padding: 20px 0px;
+  background: #a8201a;
+  border-radius: 55px;
+}
+
+.message {
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #f9fbfe;
+}
+
+.heading-hangout h3 {
+  position: absolute;
+  width: 382px;
+  height: 58px;
+  left: 848px;
+  top: 1795px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+
+  /* identical to box height */
+
+  color: #0f8b8d;
+}
+
+.heading-hangout .border {
+  position: absolute;
+  width: 381px;
+  height: 5px;
+  left: 848px;
+  top: 1873px;
+
+  background: #ec9a29;
+}
+
+.message2 p {
+  position: absolute;
+  width: 398px;
+  height: 87px;
+  left: 848px;
+  top: 1898px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.btn2 {
+  position: absolute;
+  width: 335px;
+  left: 848px;
+  top: 2030px;
+  padding: 20px 0px;
+  background: #a8201a;
+  border-radius: 55px;
+}
+
+.message3 {
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #f9fbfe;
+}
+
+.product-photo {
+  position: absolute;
+  width: 335px;
+  height: 335px;
+  left: 848px;
+  top: 1360px;
+
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+.hang-photo {
+  position: absolute;
+  width: 453px;
+  height: 453px;
+  left: 257px;
+  top: 1795px;
+
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+.heading-find h3 {
+  position: absolute;
+  width: 855px;
+  height: 58px;
+  left: 293px;
+  top: 2348px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #0f8b8d;
+}
+
+.heading-find span {
+  color: #ec9a29;
+}
+
+.classification {
+  margin-top: 1740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.classification img {
+  width: 237px;
+  height: 237px;
+  margin-right: 80px;
+}
+
+.classification2 {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.classification2 img {
+  width: 237px;
+  height: 237px;
+  margin-right: 80px;
+}
+
+.ask-heading h3 {
+  position: absolute;
+  width: 280px;
+  height: 58px;
+  left: 580px;
+  top: 3080px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #0f8b8d;
+}
+
+.text-ask p {
+  position: absolute;
+  left: 282px;
+  top: 3158px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+
+  color: #143642;
+}
+
+.btn3 {
+  position: absolute;
+  width: 335px;
+  left: 552px;
+  top: 3207px;
+  padding: 20px 0px;
+  background: #a8201a;
+  border-radius: 55px;
+
+  top: 3207px;
+}
+
+.message4 {
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #f9fbfe;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 460px;
+  left: 0px;
+  top: 3377px;
+
+  background: #143642;
+  border-radius: 30px;
+}
+
+.footer-logwhite {
+  width: 335px;
+  height: 67px;
+  left: 198px;
+  top: 3457px;
+  margin-left: 138px;
+  margin-top: 80px;
+}
+
+.mail {
+  position: absolute;
+  left: 9.58%;
+  right: 87.64%;
+  top: 35.65%;
+  bottom: 6.52%;
+
+  fill: white;
+}
+
+.phone {
+  position: absolute;
+  left: 13.58%;
+  right: 87.64%;
+  top: 35.65%;
+  bottom: 6.52%;
+
+  fill: white;
+}
+
+.selected-title {
+  color: #ec9a29;
+}
+
+.footer-head1 {
+  position: absolute;
+  left: 612px;
+  top: 17.65%;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.footer-head2 {
+  position: absolute;
+  width: 59px;
+  height: 29px;
+  left: 852px;
+  top: 17.65%;
+  color: white;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.footer-head3 {
+  position: absolute;
+  width: 86px;
+  height: 29px;
+  left: 1043px;
+  top: 17.65%;
+  color: white;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 45px;
+}
